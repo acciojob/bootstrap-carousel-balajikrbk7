@@ -1,2 +1,71 @@
+/* Set height of carousel */
+#myCarousel {
+  height: 400px;
+}
 
-/* Your CSS Code here. */
+/* Hide carousel indicators */
+.carousel-indicators {
+  display: none;
+}
+
+/* Set background image for each slide */
+.first-slide {
+  background-image: url('slide1.jpg');
+  background-size: cover;
+}
+
+.second-slide {
+  background-image: url('slide2.jpg');
+  background-size: cover;
+}
+
+.third-slide {
+  background-image: url('slide3.jpg');
+  background-size: cover;
+}
+
+.fourth-slide {
+  background-image: url('slide4.jpg');
+  background-size: cover;
+}
+
+.fifth-slide {
+  background-image: url('slide5.jpg');
+  background-size: cover;
+}
+
+/* Set background color for carousel caption */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Set color of carousel caption text */
+.carousel-caption h3,
+.carousel-caption p {
+  color: #fff;
+}
+
+/* Set size of carousel arrow icons */
+.carousel-control {
+  font-size: 40px;
+  line-height: 30px;
+  top: 50%;
+}
+
+/* Set position of carousel arrow icons */
+.carousel-control.left {
+  left: -40px;
+}
+
+.carousel-control.right {
+  right: -40px;
+}
+
+/* Add hover effect to carousel arrow icons */
+.carousel-control:hover {
+  color: #fff;
+  text-decoration: none;
+  filter: none;
+  outline: none;
+}
+
